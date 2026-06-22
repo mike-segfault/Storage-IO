@@ -5,6 +5,10 @@
 -- meant to be used with CC: Tweaked for storage management
 -- coded in Lua
 
+-- These are what you'd put for your Storage Controller and buffer storage thing. In my case, it's a barrel and this is where
+--  all of the depositing and withdrawing happens. Onve you have everything connected between Wired Modems and Netowrking Cables,
+--  you would turn the Buffer and Storage Scanner's Modems on. From there, you grab those names and replace the CONTROLLER & BUFFER variable
+--  names accoordingly.
 local CONTROLLER = "sophisticatedstorage:controller_0"
 local BUFFER     = "minecraft:barrel_4"
 
